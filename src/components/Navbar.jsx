@@ -37,15 +37,6 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center gap-8 text-gray-200 font-medium">
           <li>
             <a
-              href="#home"
-              className="hover:text-cyan-400 transition duration-300"
-            >
-              Home
-            </a>
-          </li>
-
-          <li>
-            <a
               href="#about"
               className="hover:text-cyan-400 transition duration-300"
             >
@@ -99,16 +90,6 @@ export default function Navbar() {
         } bg-slate-900 border-t border-white/10`}
       >
         <ul className="flex flex-col items-center gap-6 text-gray-200 font-medium">
-          <li>
-            <a
-              href="Hero.jsx"
-              onClick={() => setMenuOpen(false)}
-              className="hover:text-cyan-400"
-            >
-              Home
-            </a>
-          </li>
-
           <li>
             <a
               href="#about"
