@@ -97,7 +97,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="www.linkedin.com/in/shruti-tirole-4744423b6"
+                  href="https://www.linkedin.com/in/shruti-tirole-4744423b6?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                   target="_blank"
                   className="w-14 h-14 rounded-2xl bg-white/10 border border-white/10 flex items-center justify-center text-white text-xl hover:bg-blue-500 hover:scale-110 transition duration-300"
                 >

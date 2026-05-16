@@ -15,10 +15,6 @@ export default function Footer() {
 
         {/* CENTER LINKS */}
         <div className="flex gap-6 text-sm text-gray-300">
-          <a href="#home" className="hover:text-cyan-300 transition">
-            Home
-          </a>
-
           <a href="#about" className="hover:text-cyan-300 transition">
             About
           </a>
@@ -44,7 +40,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="www.linkedin.com/in/shruti-tirole-4744423b6"
+            href="https://www.linkedin.com/in/shruti-tirole-4744423b6?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             target="_blank"
             rel="noreferrer"
             className="w-10 h-10 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center text-white hover:bg-blue-500 transition"

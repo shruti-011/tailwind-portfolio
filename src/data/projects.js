@@ -1,17 +1,19 @@
+import ecommerceImage from "../assets/images/ecommerceimage.jpg";
+import exploreImage from "../assets/images/explore.jpg";
 export const projects = [
   {
     title: "Ecommerce Website",
     description: "Modern shopping UI",
     link: "https://shruti-011.github.io/ecommerce-storefront/",
     code: "https://github.com/shruti-011/ecommerce-storefront",
-    image: "src/assets/images/ecommerceimage.jpg",
+    image: ecommerceImage,
   },
   {
     title: "Explore World",
     description: "Travel booking platform",
     link: "https://shruti-011.github.io/book-my-tour/",
     code: "https://github.com/shruti-011/book-my-tour",
-    image: "src/assets/images/explore.jpg",
+    image: exploreImage,
   },
   {
     title: "Expense Tracker",
