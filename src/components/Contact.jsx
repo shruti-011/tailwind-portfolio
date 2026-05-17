@@ -121,7 +121,13 @@ export default function Contact() {
                 Have a project idea or opportunity? Let’s connect.
               </p>
 
-              <form className="space-y-5">
+              <form
+                className="space-y-5"
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  alert("Message Sent Successfully!");
+                }}
+              >
                 <div>
                   <label className="text-sm text-gray-300 block mb-2">
                     Your Name

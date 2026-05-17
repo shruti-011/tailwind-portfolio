@@ -50,11 +50,6 @@ export default function Projects() {
 
                 {/* OVERLAY */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-
-                {/* TECH BADGE */}
-                <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-400/30 text-cyan-300 text-xs backdrop-blur-md">
-                  MERN Project
-                </div>
               </div>
 
               {/* CONTENT */}
