@@ -126,6 +126,7 @@ export default function Contact() {
                 onSubmit={(e) => {
                   e.preventDefault();
                   alert("Message Sent Successfully!");
+                  e.target.reset();
                 }}
               >
                 <div>
