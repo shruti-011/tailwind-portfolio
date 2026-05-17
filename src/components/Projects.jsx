@@ -17,7 +17,7 @@ export default function Projects() {
         {/* HEADING */}
         <div className="text-center mb-16">
           <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 border border-white/10 text-cyan-300 text-sm backdrop-blur-md shadow-lg">
-            🚀 My Recent Work
+            My Recent Work
           </span>
 
           <h2 className="mt-6 text-4xl sm:text-5xl font-black text-white">

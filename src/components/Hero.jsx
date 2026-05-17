@@ -84,23 +84,33 @@ export default function Hero() {
           </div>
 
           {/* STATS */}
-          <div className="grid grid-cols-3 gap-5 mt-14">
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center">
-              <h3 className="text-3xl font-bold text-cyan-300">5+</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-14">
+            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center overflow-hidden">
+              <h3 className="text-2xl sm:text-3xl font-bold text-cyan-300 break-words">
+                5+
+              </h3>
 
-              <p className="text-gray-400 text-sm mt-1">Projects</p>
+              <p className="text-gray-400 text-sm mt-1 break-words">Projects</p>
             </div>
 
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center">
-              <h3 className="text-3xl font-bold text-cyan-300">5+</h3>
+            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center overflow-hidden">
+              <h3 className="text-2xl sm:text-3xl font-bold text-cyan-300 break-words">
+                5+
+              </h3>
 
-              <p className="text-gray-400 text-sm mt-1">Technologies</p>
+              <p className="text-gray-400 text-sm mt-1 break-words">
+                Technologies
+              </p>
             </div>
 
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center">
-              <h3 className="text-3xl font-bold text-cyan-300">100%</h3>
+            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md text-center overflow-hidden">
+              <h3 className="text-2xl sm:text-3xl font-bold text-cyan-300 break-words">
+                100%
+              </h3>
 
-              <p className="text-gray-400 text-sm mt-1">Responsive</p>
+              <p className="text-gray-400 text-sm mt-1 break-words">
+                Responsive
+              </p>
             </div>
           </div>
         </div>

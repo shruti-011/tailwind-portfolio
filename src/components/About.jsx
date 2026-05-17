@@ -53,21 +53,27 @@ export default function About() {
               </p>
 
               {/* STATS */}
-              <div className="grid grid-cols-3 gap-4 mt-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-10">
                 <div className="p-4 rounded-2xl bg-white/5 border border-white/10 text-center">
-                  <h4 className="text-2xl font-bold text-cyan-300">10+</h4>
+                  <h4 className="text-2xl font-bold text-cyan-300 break-words">
+                    10+
+                  </h4>
 
                   <p className="text-gray-400 text-sm mt-1">Projects</p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white/5 border border-white/10 text-center">
-                  <h4 className="text-2xl font-bold text-cyan-300">5+</h4>
+                  <h4 className="text-2xl font-bold text-cyan-300 break-words">
+                    5+
+                  </h4>
 
                   <p className="text-gray-400 text-sm mt-1">Skills</p>
                 </div>
 
-                <div className="p-4 rounded-2xl bg-white/5 border border-white/10 text-center">
-                  <h4 className="text-2xl font-bold text-cyan-300">100%</h4>
+                <div className="p-4 rounded-2xl bg-white/5 border border-white/10 text-center overflow-hidden">
+                  <h4 className="text-2xl font-bold text-cyan-300 break-words">
+                    100%
+                  </h4>
 
                   <p className="text-gray-400 text-sm mt-1">Responsive</p>
                 </div>
